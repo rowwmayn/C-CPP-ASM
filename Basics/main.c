@@ -34,9 +34,17 @@ int main() /* This is the entry point of the function. */{
     // Characters
     char c = 'A'; // Declaration and initialization of a character variable 'c'.
     printf("The character is: %c\n", c); // Printing the character 'c'.
-    // Strings
+    // Strings ----> [Array of characters]
     char str[] = "Hello, C!"; // Declaration and initialization of a string variable 'str'.
-    printf("The string is: %s\n", str); // Printing the string 'str'
+    printf("The string is: %s\n", str); // Printing the string 'str'.
+
+    // Printing the size of different data types
+    printf("Size of int: %zu bytes\n", sizeof(int)); // Printing the size of an integer.
+    printf("Size of float: %zu bytes\n", sizeof(float)); // Printing the size       of a float.
+    printf("Size of char: %zu bytes\n", sizeof(char)); // Printing the size of a character.
+    printf("Size of double: %zu bytes\n", sizeof(double)); // Printing the size of a double. 
+    // What is zu? It is used to print the size of a variable in bytes.       
+
 
 
 
